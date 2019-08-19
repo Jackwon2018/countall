@@ -20,15 +20,16 @@ public class Demo01Collections {
         list.add("e");*/
 
         //public static <T> boolean addAll(Collection<T> c, T... elements):往集合中添加一些元素。
-        Collections.addAll(list,"a","b","c","d","e");
-
+        boolean t = Collections.addAll(list,"acv","ggg","ab","c","d","e","hhhh");
+        System.out.println(t);
         System.out.println(list);//[a, b, c, d, e]
-        System.out.println(list.size()+"size");
-        System.out.println(list.isEmpty()+"");
+        System.out.println("size:"+list.size());
+        System.out.println(list.isEmpty());
         Object o = list.toArray();
         //public static void shuffle(List<?> list) 打乱顺序:打乱集合顺序。
-        //Collections.shuffle(list);
-        System.out.println(list);//[b, d, c, a, e], [b, d, c, a, e]
-        System.out.println();
+        Collections.shuffle(list);
+        System.out.println(list);
+        Collections.sort(list);
+        System.out.println(list);
     }
 }
