@@ -1,10 +1,10 @@
 package sjjg.atguigu.factory.factorymethod.pizzastore.order;
 
+import sjjg.atguigu.factory.factorymethod.pizzastore.pizza.Pizza;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-import com.atguigu.factory.factorymethod.pizzastore.pizza.Pizza;
 
 
 

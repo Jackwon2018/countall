@@ -1,9 +1,9 @@
 package sjjg.atguigu.factory.absfactory.pizzastore.order;
 
 
-import com.atguigu.factory.absfactory.pizzastore.pizza.LDCheesePizza;
-import com.atguigu.factory.absfactory.pizzastore.pizza.LDPepperPizza;
-import com.atguigu.factory.absfactory.pizzastore.pizza.Pizza;
+import sjjg.atguigu.factory.absfactory.pizzastore.pizza.LDCheesePizza;
+import sjjg.atguigu.factory.absfactory.pizzastore.pizza.LDPepperPizza;
+import sjjg.atguigu.factory.absfactory.pizzastore.pizza.Pizza;
 
 
 public class LDFactory implements AbsFactory {
