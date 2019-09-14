@@ -34,7 +34,7 @@ public class duotaidianxing {
 
     static class B extends A {
 
-        private String t = "b";
+        private String t = "bf";
 int value;
         public B() {
             super(5);
