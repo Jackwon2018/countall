@@ -18,7 +18,8 @@ public class test {
 
         double t = 5/2;
         System.out.println(t);
-
+int[] a={1,2,4,5};
+        System.out.println(a.length);
 
     }
    

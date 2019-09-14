@@ -8,10 +8,20 @@ package singleton1.single;
  * （2）自行创建，并且用静态变量保存
  * （3）向外提供这个实例
  * （4）强调这是一个单例，我们可以用final修改
+ 222222222222222222
+ *
+ * 枚举类型：表示该类型的对象是有限的几个
+ * 我们可以限定为一个，就成了单例
+public enum Singleton2 {
+	INSTANCE
+}
+3333333333333
+
  */
 public class Singleton1 {
 	public static final Singleton1 INSTANCE = new Singleton1();
 	private Singleton1(){
 		
 	}
+
 }
